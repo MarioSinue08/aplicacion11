@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/estilo.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/temaapp11.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Oferta Educativa</h1>
+  </div> 
+   <div class="menuizq" style="width:44%;">
+            <a href="index.html" target="_self" data-role="button">Inicio</a>
+            
+        </div>
+        <div class="menuder" style="width:44%;">
+        <a href="ofertaEducativa.html" target="_self" data-role="button">Oferta Educativa</a>
+        </div>
+        <div align="center" data-role="controlgroup">
+            
+        <div  style="width:44%;">
+          <a href="seviciosEscolares.html" target="_self" data-role="button">Servicios Escolares</a>
+        </div>
+        </div>
+<div data-role="main" class="ui-content">
+   <br>
+   <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+       <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>PROGRAMACIÓN</h2>
+       </a>
+      </li> 
+      <li class="ui-first-child ui-last-child">
+       <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>MECÁNICA INDUSTRIAL</h2>
+       </a>
+      </li> 
+      <li class="ui-first-child ui-last-child">
+       <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>ELECTRICIDAD</h2>
+       </a>
+      </li> 
+      <li class="ui-first-child ui-last-child">
+       <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>LOGISTICA</h2>
+       </a>
+      </li> 
+     </ul> 
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+      </div>
+  </div>
+  </div>
+  <div data-role="page" id="page6" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>TÉCNICO EN PROGRAMACIÓN</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+       <div>
+       <p>Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing.</p>
+        <h3>COMPETENCIAS PROFESIONALES</h3>
+        <center><img class="comp" src="imagenes/PROGRAMACION.jpg"></center>
+        <h3>MAPA CURRICULAR</h3>
+        <center><img class="mapa" src="imagenes/PROGRAMACION1.jpg"></center>
+        <h3>PERFIL DE EGRESO</h3>
+        <p>La formación que ofrece la carrera de Técnico en programación permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la:</p>
+        <ul>
+          <li>Instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos en ambientes web y móviles, con almacenamiento persistente de datos.</li>
+          <li>Así como la configuración y administración de plataforma e-learning y Comercio electrónico.</li>
+        </ul>
+        <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+        <ul>
+          <li>Desarrolladores de software</li>
+          <li>Analistas de sistemas</li>
+          <li>Analista de programas de cómputo</li>
+          <li>Programador de sistemas de cómputo</li>
+          <li>Edición de software y edición de software integrada con la reproducción</li>
+          <li>Escuelas de computación del sector privado</li>
+          <li>Servicios de diseño de sistemas de cómputo y servicios relacionados</li>
+          <li>Escuelas de computación del sector público</li>
+        </ul>
+      </div> 
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+      </div>
+   </div>
+  </div>
+  <div data-role="page" id="page2" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>TÉCNICO EN MECÁNICA INDUSTRIAL</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+       <div>
+       <p>Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.</p>
+        <h3>COMPETENCIAS PROFESIONALES</h3>
+        <center><img class="comp" src="imagenes/mecanica.jpg"></center>
+        <h3>MAPA CURRICULAR</h3>
+        <center><img class="mapa" src="imagenes/mecanica1.jpg"></center>
+        <h3>PERFIL DE EGRESO</h3>
+        <p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Mecánica Industrial:</p>
+        <ul>
+          <li>Suelda y ajusta piezas mecánicas.</li>
+          <li>Maquina piezas mecánicas en talador y torno.</li>
+          <li>Maquina piezas mecánicas en fresadora, rectificadora y cepillo.</li>
+          <li>Maquina piezas mecánicas por CNC.</li>
+          <li>Mantiene sistemas de transmisión de potencia.</li>
+        </ul>
+        <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+        <p>Industrias de transformación y procesos como: Textiles, del plástico, petroleras, metalmecánica, automotriz, pesqueras, mineras, siderúrgicas, agrícolas, alimenticia, química, de muebles, forestal, papelera, gráfica y en general todo tipo de industria de la producción y manufacturera que utilice maquinaria entre otras.</p>
+      </div> 
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+      </div>
+   </div>
+  </div>
+  <div data-role="page" id="page3" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>TÉCNICO EN ELECTRICIDAD</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+       <div>
+       <p>La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.</p>
+        <h3>COMPETENCIAS PROFESIONALES</h3>
+        <center><img class="comp" src="imagenes/electricidad.png"></center>
+        <h3>MAPA CURRICULAR</h3>
+        <center><img class="mapa" src="imagenes/electricidad1.JPG"></center>
+        <h3>PERFIL DE EGRESO</h3>
+        <p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Electricidad.</p>
+        <ul>
+          <li>Desarrolla instalaciones eléctricas residenciales y comerciales.</li>
+          <li>Mantiene los motores y generadores de CA y CC.</li>
+          <li>Mantiene en operación los circuitos de control electromagnético y electrónico.</li>
+          <li>Mantiene los sistemas de iluminación y de energía renovable.</li>
+          <li>Mantiene instalaciones eléctricas de media y baja tensión.</li>
+        </ul>
+        <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+        <p>Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social.</p>
+      </div> 
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+      </div>
+   </div>
+  </div>
+  <div data-role="page" id="page5" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>TÉCNICO EN LOGISTICA</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+       <div>
+       <p>Ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a la administración de bienes, planificando los suministros destinados al almacenamiento de manera manual y electrónica, la organización de los nodos logísticos para el transporte de mercancías, así como proveer los servicios y atención al cliente sobre los movimientos y los costos de la cadena logística.</p>
+        <h3>COMPETENCIAS PROFESIONALES</h3>
+        <center><img class="comp" src="imagenes/logistica.png"></center>
+        <h3>MAPA CURRICULAR</h3>
+        <center><img class="mapa" src="imagenes/logistica1.jpg"></center>
+        <h3>PERFIL DE EGRESO</h3>
+        <p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales:</p>
+        <ul>
+          <li>Supervisa el proceso de suministro de bienes.</li>
+          <li>Apoya en el proceso de administración del servicio de almacenaje de bienes.</li>
+          <li>Organiza el transporte de mercancías.</li>
+          <li>Provee servicio y atención al cliente sobre los movimientos de logística.</li>
+          <li> Organiza los costos de la cadena logística Y las competencias de productividad y empleabilidad.</li>
+          <li>Atención al proceso</li>
+          <li>Planeación y organización</li>
+          <li>Ética professional.</li>
+          <li>Comunicación efectiva, Trabajo en equipo.</li>
+          <li>Atención al cliente.</li>
+          <li>Relaciones interpersonales</li>
+        </ul>
+        <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+        <p>Nuestro país presenta una amplia diversidad de procesos de producción, desde los que utilizan tecnología moderna, hasta sistemas tradicionales; este hecho contribuye a diversificar las ocupaciones, los Comités interinstitucionales de Formación Profesional decidieron utilizar los siguientes: Sectores industriales, comerciales y de servicios, públicos o privados: Escuelas, constructoras, fábricas, centros comerciales, hospitales, inmobiliarias, hoteles, instituciones de crédito, despachos contables y tiendas de autoservicio. Autoempleo.</p>
+      </div> 
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+      </div>
+   </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contacto
+{
+	background-color: white;
+	border-radius: 20px;
+}
+h2 {
+	font-size: 120%;
+}
+.mision
+{
+	text-align: center;
+	color: #B0E0E6;
+}
+
+#vision
+{
+	text-align: center;
+}
+
+#vision img
+{
+	width: 50%;
+	height: 60%;
+}
+
+#plan
+{
+	color: #808080;
+}
+
+.espacios
+{
+	width: 50%;
+	height: 60%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.contenido {
+	width: 97%;
+	margin: 0 -2% 15%;
+} 
+a {
+	text-decoration: none;	
+} 
+.menuizq {
+	position: relative;
+	width: 80%;
+	float: left;
+	text-align: center;
+	margin-left: 5%;
+} 
+.menuder {
+	position: relative;
+	width: 80%;
+	float: right;
+	text-align: center;
+	margin-right: 5%;
+} 
+.comp {
+	width: 95%;
+}
+.mapa {
+	width: 98%;
+}
+.section-meals{
+	width: 100%
+}
+
+.section-meals>h2 {
+	display: none;
+}
+
+.meals {
+	list-style: none;
+	width: 100%;
+}
+
+.meals li {
+	float: left;
+	width: 29%;
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+	background-color: #000;
+	overflow: hidden;
+}
+
+.meal-photo img {
+	width: 100%;
+	height: 120px;
+	opacity: 0.35;
+	transform: scale(1.5);
+	transition: all 0.5s linear;
+}
+
+.meal-photo img:hover {
+	transform: scale(1.1);
+	opacity: 1;
+}
+.segundo {
+	margin-top: 5%;
+}

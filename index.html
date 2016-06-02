@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicación CBTis</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/estilo.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/temaapp11.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CBTis No. 16</h1>
+  </div> 
+        <div class="menuizq" style="width:44%;">
+            <a href="index.html" target="_self" data-role="button">Inicio</a>
+            
+        </div>
+        <div class="menuder" style="width:44%;">
+        <a href="ofertaEducativa.html" target="_self" data-role="button">Oferta Educativa</a>
+        </div>
+        <div align="center" data-role="controlgroup">
+            
+        <div  style="width:44%;">
+          <a href="seviciosEscolares.html" target="_self" data-role="button">Servicios Escolares</a>
+        </div>
+        </div>
+ <br>
+<div data-role="main" class="ui-content"> 
+<iframe src="visor/wowslider.html" style="width:95%;height:194px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+  <div data-role="collapsible" data-content-theme="false">
+    <h2>¿Qué es la DGETI?</h2>
+    <div>
+      <center><iframe width="80%" height="250" src="https://www.youtube.com/embed/YIcG2FxfxFo" frameborder="0" allowfullscreen></iframe></center>
+    </div>
+   </div>
+  <div data-role="collapsible" data-content-theme="false">
+    <h2>Misión y Visión</h2>
+    <div>
+      <h1 class="mision">Misión</h1>
+      <p>Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</p>
+      <br>
+      <h1 class="mision">Visión</h1>
+      <p>Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</p>
+      <br>
+      <div id="vision">
+      <img src="imagenes/cbtis3.jpg">
+      </div>
+    </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+    <h2>Características</h2>
+    <div>
+      <ul>
+      <li>Posee un modelo flexible que permite el ingreso sin examen de admisión.</li>
+      <li>El estudiante realiza las asignatiras de acuerdo a su propio ritmo de avance y posibilidades de aprendizaje.</li>
+      <li>Se cuenta con material didáctico adecuado a las diferentes discapacidades.</li>
+      <li>El ingreso no exige limite de edad.</li>
+      <li>Los servicios son gratuitos a excepción de los exámenes, duplicado de credencial y duplicado de Certificado de Terminación de estudios.</li>
+      <li>El estudiuo de las asignaturas no se realiza obligatoriamente en el plantel.</li>
+      </ul>
+      </div>
+      <br>
+      <div align="center">
+      <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('v2','','imagenes/cbtis1.jpg',1)"><img src="imagenes/cbtis2.jpg" width="60%" height="60%" id="v2" /></a></p>
+      </div>
+  </div>
+  <br>
+  <h2>Ubicación del plantel</h2>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.6307958775787!2d-98.42659758466105!3d18.90345336228468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfb47405555555%3A0x19bb49f598a8846f!2sCBTis+No+016!5e0!3m2!1ses!2smx!4v1464786148649" width="80%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+    <h2>Contacto</h2>
+    <div id="contacto" align="center">
+      <p><strong>Director:</strong> Ramos Bravo Anselmo</p>
+      <p><strong>CCT:</strong> 21DCT0046P</p>
+      <p><strong>Tel.:</strong> (244) 4462940</p>
+      <p><strong>Dirección:</strong> Fracc. Ricardo Flores Magon Domicilio Conocido S/N. Atlixco, Puebla. CP 74240</p>
+      <p><strong>Correo Electrónico:</strong> cbtis016.dir@dgeti.sems.gob.mx</p>
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+    <h2>Desarrollado por</h2>
+    <div align="center">
+      <p>Mario Sinue Prudente Carrara</p>
+      <p>4° Semestre Grupo: "E"</p>
+      <p><b>Especialidad</b></p>
+      <p>Programación</p>
+      <p><b>Submodulo</b></p>
+      <p>Desarrolla Aplicaciones Moviles (DAM)</p>
+    </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Mario Sinue Prudente Carrera</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
